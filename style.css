@@ -1,0 +1,263 @@
+/* General Styles */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    padding-top: 56px;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    color: white;
+}
+
+.carousel, .carousel-inner, .carousel-item, .slide {
+    height: 100%;
+}
+
+.slide-bg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Changed back to cover for consistent display */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.slide {
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.8); /* Consistent dark background */
+}
+
+/* Remove duplicate slide class definition and old background styles */
+.slide1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+/* Remove these as they're no longer needed */
+.slide2, .slide3 {
+    background: none;
+}
+
+.slide {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slide1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    position: relative;
+    overflow: hidden;
+}
+
+.devops-img {
+    max-width: 500px;
+    width: 90%;
+    height: auto;
+    margin: 0 auto 2rem;
+    display: block;
+    animation: fadeIn 1.5s ease-in;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive adjustments for the image */
+@media (max-width: 991px) {
+    .devops-img {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .devops-img {
+        max-width: 300px;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .devops-img {
+        max-width: 250px;
+        margin-bottom: 1rem;
+    }
+}
+
+.slide2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1920x1080');
+}
+
+.slide3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1920x1080');
+}
+
+.carousel-item h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.carousel-item .lead {
+    font-size: 1.5rem;
+}
+
+/* About Section */
+.skills {
+    margin-top: 20px;
+}
+
+.badge {
+    font-size: 1rem;
+    margin: 5px;
+    padding: 8px 16px;
+}
+
+/* Projects Section */
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Contact Section */
+.form-control {
+    margin-bottom: 15px;
+}
+
+/* Social Links */
+.social-links a {
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #007bff !important;
+}
+
+/* Responsive Adjustments */
+/* General Responsive Styles */
+@media (max-width: 991px) {
+    .navbar-collapse {
+        background-color: rgba(33, 37, 41, 0.95);
+        padding: 1rem;
+        border-radius: 0.5rem;
+    }
+
+    .hero h1 {
+        font-size: 2.8rem;
+    }
+
+    .hero .lead {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero .lead {
+        font-size: 1.1rem;
+    }
+
+    .skills .badge {
+        font-size: 0.9rem;
+        padding: 6px 12px;
+    }
+
+    #about img {
+        margin-bottom: 2rem;
+    }
+
+    .card {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero .lead {
+        font-size: 1rem;
+    }
+
+    section {
+        padding: 3rem 0;
+    }
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .social-links a {
+        font-size: 1.2rem;
+        margin: 0 10px;
+    }
+
+    .form-control {
+        font-size: 0.9rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+}
+
+/* Tablet-specific adjustments */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .card {
+        margin-bottom: 30px;
+    }
+
+    #projects .col-md-4 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+/* Touch device optimization */
+@media (hover: none) {
+    .card:hover {
+        transform: none;
+    }
+
+    .nav-link {
+        padding: 0.8rem 1rem;
+    }
+}
+
+.skills .badge {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.skills .badge:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(106, 90, 205, 0.3);
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">RN Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Slider -->
+    <section id="home" class="hero">
+        <div id="heroCarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="slide slide1">
+                        <div class="container h-100">
+                            <div class="row h-100 align-items-center">
+                                <div class="col-12 text-center">
+                                    <img src="continuous-development-visual.png" alt="DevOps Infinity Loop" class="devops-img mb-4">
+                                    <h1>Welcome to My Portfolio</h1>
+                                    <p class="lead">DevOps Engineer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="1742323300969.jpeg" alt="Profile" class="img-fluid rounded" style="max-width: 50%; display: block; margin: 0 auto;">
+                </div>
+                <div class="col-md-6">
+                    <p>I am a passionate AWS Cloud Engineer skilled in infrastructure automation and DevOps methodologies. With expertise in containerization, CI/CD pipelines, and cloud security, I optimize cloud solutions for scalability and efficiency. I thrive on solving complex problems and driving impactful cloud transformations.</p>
+                    <div class="skills">
+                        <h3>Skills</h3>
+                        <span class="badge" style="background-color: #6A5ACD">Cloud & DevOps</span>
+                        <span class="badge" style="background-color: #6A5ACD">Automation & Monitoring</span>
+                        <span class="badge" style="background-color: #6A5ACD">Containerization</span>
+                        <span class="badge" style="background-color: #6A5ACD">Programming & Scripting</span>
+                        <span class="badge" style="background-color: #6A5ACD">Networking & Security</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">My Projects</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="project1.png" class="card-img-top" alt="Kubernetes Project" style="max-height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Microservices Kubernetes Deployment</h5>
+                            <p class="card-text">
+                                <ul class="list-unstyled">
+                                    <li>• Architected scalable microservices infrastructure with Kubernetes and Docker, achieving 40% faster deployments</li>
+                                    <li>• Implemented HPA for dynamic resource allocation</li>
+                                    <li>• Integrated Prometheus and Grafana monitoring, reducing troubleshooting time by 30%</li>
+                                    <li>• Optimized traffic routing with LoadBalancer and Ingress controllers</li>
+                                    <li>• Achieved 99.9% uptime through automated CI/CD pipelines</li>
+                                </ul>
+                            </p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="project2.png" class="card-img-top" alt="Reddit Clone Project" style="max-height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Reddit Clone – CI Pipeline with Docker & Kubernetes</h5>
+                            <p class="card-text">
+                                <ul class="list-unstyled">
+                                    <li>• Engineered CI/CD pipeline with Jenkins and Docker, reducing release cycles from days to hours</li>
+                                    <li>• Developed automated Docker image building for consistent environments</li>
+                                    <li>• Integrated Docker Hub for centralized container registry</li>
+                                    <li>• Achieved 60% improvement in resource utilization with Kubernetes</li>
+                                    <li>• Reduced configuration errors by 85% using infrastructure-as-code</li>
+                                </ul>
+                            </p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="project 3.png" class="card-img-top" alt="Notes App Project" style="max-height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Notes App – DevOps Setup</h5>
+                            <p class="card-text">
+                                <ul class="list-unstyled">
+                                    <li>• Containerized application using Docker and Kubernetes for efficient scaling</li>
+                                    <li>• Automated infrastructure deployment with Terraform</li>
+                                    <li>• Implemented CI/CD pipeline using GitHub Actions and Jenkins</li>
+                                    <li>• Integrated AWS services with Prometheus and Grafana monitoring</li>
+                                    <li>• Achieved 60% faster deployments and 99.9% uptime</li>
+                                </ul>
+                            </p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <div class="social-links mb-3">
+                <a href="https://github.com/rutiknikam" class="text-white me-3" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rutik-nikam70/" class="text-white me-3" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+            <p>Email: rutiknikam@gmail.com</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
