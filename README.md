@@ -1,6 +1,5 @@
 #   🚀 RN Portfolio - Showcasing DevOps Expertise 🚀
 
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub Stars](https://img.shields.io/github/stars/rutiknikam/your-portfolio-repo?style=social)](https://github.com/rutiknikam/your-portfolio-repo)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/rutik-nikam70/)
 
@@ -23,16 +22,6 @@ The site features:
 * **A "Contact" section** providing a direct way for visitors to reach out.
 * **Responsive design** ensuring optimal viewing experience across various devices, powered by Bootstrap.
 
-##   🖼️  Screenshots
-
-*(Include actual image file paths or links here for a visual representation)*
-
-* **Home Section:** ![Home Section](path/to/your/home-screenshot.png)
-* **About Section:** ![About Section](path/to/your/about-screenshot.png)
-* **Projects Section:** ![Projects Section](path/to/your/projects-screenshot.png)
-* **Contact Section:** ![Contact Section](path/to/your/contact-screenshot.png)
-
-*(Replace `path/to/your/...png` with the actual paths to your screenshot images within the repository or external URLs)*
 
 ##   🛠️  Technologies Used
 
@@ -46,13 +35,21 @@ The site features:
 * **JavaScript:** *(Used for Bootstrap's interactive components like the navbar toggler and carousel. Mention any custom JavaScript if you add it.)*
 
 ##   📂  File Structure
+
 ├── index.html
+
 ├── style.css
+
 ├── continuous-development-visual.png  # Hero section image
+
 ├── 1742323300969.jpeg           # Profile image
+
 ├── project1.png                   # Project 1 image
+
 ├── project2.png                   # Project 2 image
+
 ├── project 3.png                  # Project 3 image
+
 └── README.md
 ##   🚀  Getting Started
 
@@ -81,8 +78,8 @@ Feel free to reach out and connect with me:
 
 * **GitHub:** [https://github.com/rutiknikam](https://github.com/rutiknikam)
 * **LinkedIn:** [https://www.linkedin.com/in/rutik-nikam70/](https://www.linkedin.com/in/rutik-nikam70/)
-* **Email:** rutiknikam@gmail.com
-* **Twitter:** [https://twitter.com/your-twitter-handle](https://twitter.com/your-twitter-handle) *(Optional: Add your Twitter or other social media links)*
+* **Email:** rutiknikam70@gmail.com
+
 
 ##   📝  Author
 
