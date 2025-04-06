@@ -70,7 +70,7 @@ This is a static website built with HTML, CSS, and Bootstrap. To view it locally
 
 ##   🔗  Live Demo
 
-You can view the live version of my portfolio here: [https://your-deployed-portfolio-url.com](https://your-deployed-portfolio-url.com) *(Replace with your actual deployed URL if you have one)*
+You can view the live version of my portfolio here: [https://aws-made-easy-website-portfolio.s3.us-east-2.amazonaws.com/index.html) *(Replace with your actual deployed URL if you have one)*
 
 ##   🤝  Let's Connect!
 
